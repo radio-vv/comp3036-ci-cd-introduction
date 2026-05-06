@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <main>
+    <main style={{ color: "blue" }}>
       <h1>FSD Class</h1>
       <p>My Awesome Blog</p>
       <p>Welcome to a CI/CD-ready blog app!</p>
