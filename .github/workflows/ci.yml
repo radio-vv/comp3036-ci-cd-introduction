@@ -8,6 +8,8 @@ on:
 
 jobs:
   build-and-test:
+    env:
+      COURSE: full-stack-development-comp3036-2026
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
